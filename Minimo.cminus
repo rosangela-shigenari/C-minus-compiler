@@ -1,0 +1,19 @@
+int CalcMin (int x, int y){
+
+  if(x<y){
+    return x;
+  }
+  else{
+    return y;
+  }
+}
+
+void main (void){
+  int x;
+  int y;
+  int result;
+  x = input();
+  y = input();
+  result = CalcMin(x, y);
+  output(result);
+}

@@ -1,0 +1,19 @@
+int potencia (int a, int b){
+  int pot;
+  int i;
+  i = 1;
+  pot = a;
+
+  while(i <= b){
+    pot = pot * a;
+    i = i + 1;
+  }
+  return a;
+}
+void main (void){
+  int a;
+  int b;
+  a = input();
+  b = input();
+  output(potencia(a, b));
+}

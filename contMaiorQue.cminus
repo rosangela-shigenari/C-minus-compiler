@@ -1,0 +1,29 @@
+/*conta os numeros maiores que 10*/
+int ContNum(int a[], int n)
+{
+  int s;
+	int i;
+  i = 0;
+  s = 0;
+	while (i < n){
+		if(a[i] > 10){
+      s = s + 1;
+    }
+    i = i + 1;
+	}
+  return s;
+}
+
+void main(void)
+{
+	int vet[4];
+	int n;
+	int j;
+  j = 0;
+  n = 4;
+	while (j < n){
+		vet[j] = input();
+		j = j + 1;
+	}
+	output(ContNum(vet, n));
+}

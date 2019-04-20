@@ -1,0 +1,15 @@
+void CalcMedia (int x, int y){
+  int media;
+  int aux;
+  aux = x + y;
+  media = aux/2;
+  output (media);
+}
+
+void main (void){
+  int x;
+  int y;
+  x = input();
+  y = input();
+  CalcMedia (x, y);
+}

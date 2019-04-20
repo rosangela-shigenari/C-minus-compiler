@@ -1,0 +1,11 @@
+/*Código referente ao kernel do sistema operacional*/
+
+int main (void){
+  carregaTabelaDeProgramas();
+  createMenu();
+  renomearPrograma();
+  excluirPrograma();
+  executarPrograma();
+  /*StoringPage()
+  */
+}

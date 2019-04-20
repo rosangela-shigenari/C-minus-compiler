@@ -1,0 +1,17 @@
+void fatorial (int a){
+
+  int result;
+  result = 1;
+
+  while (a > 0){
+    result = result * a;
+    a = a - 1;
+  }
+  output(result);
+}
+
+void main (void){
+  int x;
+  x = input();
+  fatorial (x);
+}
